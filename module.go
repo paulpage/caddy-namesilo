@@ -3,7 +3,7 @@ package namesilo
 import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	libdnsnamesilo "github.com/libdns/namesilo"
+	libdnsnamesilo "github.com/paulpage/libdns-namesilo"
 )
 
 // Provider lets Caddy read and manipulate DNS records hosted by this DNS provider.
